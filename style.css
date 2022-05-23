@@ -1,0 +1,136 @@
+body{
+    background-image: url(form.jpg);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #30E3CA;
+    position: relative;
+    /* position: fixed; */
+    /* top: 0;
+    width: 100%; */
+}
+
+/* nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+} */
+
+
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #40514E;
+}
+
+.video{
+    width:min-content;
+}
+
+#myVideo {
+    position:static;
+    right: 0;
+    bottom: 0;
+    min-width: 80%;
+    min-height: 80%;
+    max-width: 1500px;
+}
+
+p{
+    text-align: justify;
+}
+
+.aside-maruti {
+    /* width: 20%; */
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    align-content: center;
+}
+
+.image-maruti{
+    max-width: 200px;
+}
+
+figcaption{
+    display: block;
+    block-size: 20px;
+}
+
+.aside-hyundai {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    align-self: center;
+}
+
+.image-hyundai{
+    max-width: 200px;
+}
+
+.aside-tata, .aside-mahendra, .aside-toyoto {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    align-self: center;
+}
+
+.image-tata, .image-mahendra, .image-toyoto {
+    max-width: 200px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table{
+    border-spacing: 10px;
+    /* align-content: center; */
+    text-align: center;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th:hover{
+    background-color: crimson;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  /* th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  } */
+
+  /* .feature{
+    text-align: center;
+  } */
+
+  footer{
+      background-color: #30E3CA;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+  }
