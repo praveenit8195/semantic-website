@@ -1,25 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url(form.jpg);
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+.nav-bar{
+    background-color: #30E3CA;
+    padding: 14px 16px;
+}
+ul li{
+    display: inline;
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar a:hover{
+    background-color: #40514E;
+    padding: 14px 16px;
+}
+
+
+/* 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #30E3CA;
-    position: relative;
+    /* position: relative; */
     /* position: fixed; */
     /* top: 0;
     width: 100%; */
+/* } */
+/* 
+header{
+    position: sticky;
+    top: 0;
 }
 
-/* nav{
-    position: fixed;
-    top: 0%;
-    width: 100%;
-} */
-
+.navbar{
+    padding: 20px;
+    background-color: blue;
+}
 
 
 li {
@@ -27,7 +60,7 @@ li {
 }
 
 li a{
-    display: block;
+    
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -36,7 +69,7 @@ li a{
 
 li a:hover{
     background-color: #40514E;
-}
+} */
 
 .video{
     width:min-content;
@@ -48,7 +81,11 @@ li a:hover{
     bottom: 0;
     min-width: 80%;
     min-height: 80%;
-    max-width: 1500px;
+    max-width: 1519px;
+}
+
+span{
+    background-color: #30E3CA;
 }
 
 p{
@@ -114,6 +151,12 @@ th, td{
 
 th:hover{
     background-color: crimson;
+    color: white;
+}
+
+td:hover{
+    background-color: #916BBF;
+    color: white;
 }
 
 tr:nth-child(even) {
